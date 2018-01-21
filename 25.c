@@ -22,9 +22,13 @@ a[j]=temp;
 }
 }
 }
+  
 for(i=0;i<n;i++)
 {
+if(a[i]==a[n/2]) 
+{
 printf("%d",a[i]);
+}
 }
 }
 
